@@ -7,7 +7,7 @@ Building:
 tsc --target es6 Example.Ts
 ```
 
-#MNIST
+## MNIST
 
 It achieved 97.6% accuracy a subset of the MNIST database with the following parameters:
 - Iterations: 100,000
