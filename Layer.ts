@@ -58,7 +58,7 @@ export class Layer implements ILayer {
 		var backPropogationDxWeight: number[]; //no need to initialise array since this will only be a reference
 
 		if(target.length != this.neurons.length) {
-			throw ("Layer " + this.myID + " target array wrong size (should be " + this.neurons.length + ")");
+			throw ("Layer  target array wrong size (should be " + this.neurons.length + ")");
 		}
 
 		for (var i = 0; i < this.neurons.length; i++) {
